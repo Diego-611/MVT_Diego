@@ -20,7 +20,7 @@ from Familiares.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path ("familiares/",inicio),
+    path ("",inicio),
     path ("mama/",mama),
     path ("papa/",papa),
     path ("hermana/",hermana),

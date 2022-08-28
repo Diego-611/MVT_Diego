@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'MVT_Diego_Perez.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/tucud/OneDrive/Escritorio/Trabajo Para Entregar/Plantillas/"],
+        'DIRS': ["C:/Users/tucud/OneDrive/Escritorio/Trabajo Para Entregar/MVT_Diego_Perez/Plantillas/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
